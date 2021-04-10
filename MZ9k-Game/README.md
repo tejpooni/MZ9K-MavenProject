@@ -1,14 +1,13 @@
 **MAZE GAME 9000**
 # About the game
-- To play a level, run the game then enter a number from 1 to 4 in the text box below the play button, then press Play.
-- Move the player, a stickman, using WASD. Press a key to move that direction. If you hold down a key in WASD, you only move one tile. If you press and hold space then press and hold WASD, you can keep moving.
+- To play a level, run the game then enter a number from 1 to 5 in the text box below the play button, then press Play.
+- Move the player, using WASD. Press a key to move that direction. If you hold down a key in WASD, you only move one tile. If you press and hold space then press and hold WASD, you can keep moving.
 - Collect all regular rewards, represented by golden coins, then step onto the orange end point to win the game.
-- Sometimes, bonus rewards represented by green gems appear. Collect them for a nice points increase! But you must be fast since they only appear for a short time!
-- If a snake touches you, you die! Avoid snakes.
-- There are 3 types of snakes: green, red, and blue. Green snakes follow and track you down. Red snakes move left and right. Blue snakes move up and down.
+- Bonus rewards represented by green gems appear. Collect them for a nice points increase! But you must be fast since they only appear for a short time!
+- If a snake or any of the moving enemies touch you, you die! Avoid them!
+- There are 3 types of moving enemies: green(snake), red(rat), and blue(bat). Snakes follow and track you down. Red Rats move left and right. Blue Bats move up and down.
 - Don't step on a punishment, represented by a bomb. If you do, you lose 25 points. If your score does negative, you die!
 - Try to beat the level as fast as possible. The faster you are, the greater your time bonus is!
-
 <img width="899" alt="Screen Shot 2021-04-10 at 4 09 09 PM" src="https://user-images.githubusercontent.com/58926132/114286866-6e46ef80-9a17-11eb-8329-31d6ac326f6b.png">
 <img width="899" alt="Screen Shot 2021-04-10 at 4 09 15 PM" src="https://user-images.githubusercontent.com/58926132/114286868-7010b300-9a17-11eb-8591-0ef60296b672.png">
 <img width="899" alt="Screen Shot 2021-04-10 at 4 09 25 PM" src="https://user-images.githubusercontent.com/58926132/114286877-7e5ecf00-9a17-11eb-99d6-5c3bf8705324.png">
