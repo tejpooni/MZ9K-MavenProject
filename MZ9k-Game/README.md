@@ -1,7 +1,7 @@
 **MAZE GAME 9000**
 # About the game
 - To play a level, run the game then enter a number from 1 to 5 in the text box below the play button, then press Play.
-- Move the player, using WASD. Press a key to move that direction. If you hold down a key in WASD, you only move one tile. If you press and hold space then press and hold WASD, you can keep moving.
+- Move the player, using WASD. Press key to move that direction. Holding down a key in WASD, only moves one tile. Press and hold space then press and hold WASD, you can keep moving.
 - Collect all regular rewards, represented by golden coins, then step onto the orange end point to win the game.
 - Bonus rewards represented by green gems appear. Collect them for a nice points increase! But you must be fast since they only appear for a short time!
 - If a snake or any of the moving enemies touch you, you die! Avoid them!
