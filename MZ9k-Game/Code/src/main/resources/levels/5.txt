@@ -1,0 +1,29 @@
+levelNumber 5
+startPointWallDir left
+endPointWallDir right
+bonusRewardAppearOnTickTimes 100 300 500 700 900
+bonusRewardLifetimeTickTimes 450
+ticksUntil0TimeBonus 1800
+maxTimeBonusScore 80
+
+layout
+############################
+#                          E
+# S                        #
+#  ######U######### #####  #
+#  #          #C G# #  C#  #
+#  # #### ##C #B B#U#   #  #
+#    L   G    #         L  #
+#  # #### ### #  #####  #  #
+#  #  C       #    B C  #  #
+#  ######################  #
+#  #        C #G     C  #  #
+#  # C B  BBB #    L    #  #
+#  # BBB UB   #         #  #
+#    L  G BB B# UC     U   #
+#  # ###  B C #      S  #  #
+#  #          #    L    #  #
+#  ##### ########## #####  #
+#                          #
+P                          #
+############################

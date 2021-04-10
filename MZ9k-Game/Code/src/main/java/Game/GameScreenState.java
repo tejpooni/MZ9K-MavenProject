@@ -1,0 +1,6 @@
+package Game;
+
+public enum GameScreenState
+{
+	START_MENU, LOADING_LEVEL, IN_GAME, RETURN_TO_MENU, RESTART_LEVEL, EXIT_GAME
+}

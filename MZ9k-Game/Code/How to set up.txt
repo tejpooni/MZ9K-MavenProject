@@ -1,0 +1,11 @@
+1) Open the folder with pom.xml in IntelliJ IDEA. If you have IDEA set up as a command line parameter, use the command below in Command Prompt (Windows only). To set up IDEA for command line, go here: https://www.jetbrains.com/help/idea/opening-files-from-command-line.html
+
+idea64 .
+
+
+2) Then, open the .java file named Main.java. There should be two green arrows beside the line numbers. Click on the green arrow beside the line:
+
+public static void main(String[] args)
+
+3) Click Run Main.main()
+4) The code should run now.

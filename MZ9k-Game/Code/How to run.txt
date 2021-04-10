@@ -1,0 +1,20 @@
+0) Assuming you are on Windows 10, run the following command in Command Prompt:
+
+java -version
+
+java version "11.0.10" 2021-01-19 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.10+8-LTS-162)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.10+8-LTS-162, mixed mode)
+
+Your Java version should be Java 11.0.10. We primarily used the JDK named "Amazon Corretto version 11.0.10" to make our game. It came with IntelliJ. If you don't have Java 11.0.10, you can download the correct JDK version here:
+https://www.oracle.com/ca-en/java/technologies/javase-jdk11-downloads.html
+
+1) Load the folder into IntelliJ. It is a Maven project. To build the project into a JAR file, go to Navigate > Search Everywhere, then type in "Maven". A sidebar titled "Maven" should pop up. On that sidebar, Go to Lifecycle, then double-click on "package" to build the project. Wait for the JAR to finish, then go to the place where the JAR was made. IntelliJ should tell you its path in a line that says:
+
+[INFO] Building jar: <directory>\Code\target\group3MazeGame-0.0.1-DEVELOPMENT-jar-with-dependencies.jar
+
+2) Go to the folder that contains the JAR. Then open Command Prompt, change directory to the place with the JAR, and type in the command:
+
+java -jar group3MazeGame-0.0.1-DEVELOPMENT-jar-with-dependencies.jar
+
+3) The game will run. Note that you might be able to double-click on the JAR to run it.

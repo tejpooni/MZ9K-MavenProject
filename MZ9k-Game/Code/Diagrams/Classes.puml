@@ -1,0 +1,136 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+class Board
+{
+	-score: int
+	-time: int
+	-levelNumber: int
+
+	-mainCharacter: Player
+	-enemyList: List<MovingEnemy>
+
+	-rewardList: List<Reward>
+	-punishmentList: List<Punishment>
+
+	-wallList: List<SolidWall>
+	-spawnPoint: StartPoint
+	-finishLine: EndPoint
+
+	~setup(): void
+	~changeScore(): void
+	~handleTime(): void
+}
+
+Board "1" o-- "1..*" Tile
+Board "1" o-- "1..*" Entity
+Board "1" o-- "1..*" Item
+
+abstract class Placeable
+{
+	#x: int
+	#y: int
+	#texture: String
+
+	#setPosition(): void
+	#setTexture(): void
+	#render(): void
+}
+
+
+Placeable <|-- Tile
+Placeable <|-- Entity
+Placeable <|-- Item
+
+
+abstract class Tile
+{
+	#solid: boolean
+	~setSolid(): boolean
+}
+
+class SolidWall
+class StartCell
+class EndCell
+
+Tile <|-- SolidWall
+Tile <|-- StartCell
+Tile <|-- EndCell
+
+abstract class Entity
+{
+	#canMove: boolean
+	~move(): void
+	#checkForWall(): boolean
+}
+
+Entity <|-- MainCharacter
+Entity <|-- MovingEnemy
+
+class MainCharacter
+{
+	isAlive: boolean
+
+	~move(): void
+	~setIsAlive(): void
+	~getIsAlive(): boolean
+	-checkForEnemy(): boolean
+	-checkForItem(): boolean
+	-checkForEndPoint(): boolean
+}
+
+class MovingEnemy
+{
+	~move(): void
+}
+
+abstract class Item
+{
+	#collected: boolean
+	~setCollected(): boolean
+}
+
+Item <|-- ScoreChanger
+
+
+abstract class ScoreChanger
+{
+	#value: int
+	~setValue(): int
+}
+
+ScoreChanger <|-- BonusReward
+ScoreChanger <|-- RegularReward
+ScoreChanger <|-- Punishment
+
+together {
+	class RegularReward
+	{
+   	~getCollected(): boolean
+   }
+	class BonusReward
+	{
+   	-isActive: boolean
+   	-uptime: int
+   	-downtime: int
+   	-currentTime: int
+   	-spawnDelay: int
+
+   	~setIsAlive(): void
+   	~setTimes(): void
+   	~manageTime(): void
+   }
+	class Punishment
+}
+
+class RegularReward
+
+
+class BonusReward
+
+
+
+
+@enduml

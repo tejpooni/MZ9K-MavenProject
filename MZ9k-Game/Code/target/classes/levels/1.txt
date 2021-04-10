@@ -1,0 +1,55 @@
+//Write a comment in a level file like you'd write a line comment in C++ or Java. They are ignored by the level parser.
+levelNumber 1
+//StartCell and EndCell mainly lie along the game barrier. Since the points are non-solid, they can be moved through.
+//So, they require walls to keep players and enemies from going out of bounds. This method creates up to 3 walls
+//beside the StartCell and EndCell to keep things in.
+//Valid values: up, down, left, right (places the walls beside StartCell and EndCell in that direction), or none for no 3 walls.
+startPointWallDir down
+endPointWallDir right
+
+//The game runs at 30 frames per second, or 30 ticks per second.
+//You might think that 1 tick = 33.33 milliseconds, but actually, 1 tick = 33 milliseconds.
+//This is due to how Thread.sleep can only pause the game in whole milliseconds, not decimal milliseconds.
+//This 1t = 33ms means that for the game, 990 ms makes up 1 second. While a proper game would never do this, it's good enough for the circumstances of this project.
+//Just keep in mind that 30 ticks = 1 second when setting these parameters.
+
+//Bonus rewards will appear on these given ticks.
+//For example, if a reward appears on tick 10, it won't be visible and can't be collected until tick 10.
+//One value is assigned to the first reward, then the second value is assigned to the second reward, and so on.
+//The order of rewards is left to right, then up to down, similar to how you'd read words in a book.
+//If there are more bonuses than ticks, values assigned will restart from the beginning of the given list.
+bonusRewardAppearOnTickTimes 100 300 500 700 900
+
+//Bonus rewards will appear for the length of these given ticks.
+//For example, if a reward appears on tick 15, and its lifetime is 5 ticks, it will disappear on tick 20, since it appeared for ticks 15 to 19.
+//Assignment works just like it does for bonusRewardAppearOnTickTimes.
+bonusRewardLifetimeTickTimes 200
+
+//There is a concept called time bonus. The faster the player completes the level, the more score they will get.
+//Time bonus is calculated by: time_bonus = maxTimeBonusScore * (ticksUntil0TimeBonus - tick) / ticksUntil0TimeBonus
+//where tick is how many ticks the player took to complete the level.
+//If the player takes too long to beat the level, where tick > ticksUntil0TimeBonus, the player gets a time bonus of 0.
+ticksUntil0TimeBonus 1500
+maxTimeBonusScore 60
+
+layout
+############################
+#   S         L            E
+#    #########            ##
+# #  B   #        ##########
+# #     C#   ####    S     #
+# # ######      # C   #    #
+# #        # #  ##### #   G#
+# ########## #### G # #    #
+#  #G  #        #     #    #
+#           # ######  # U C#
+# ### ###   #     G   #    #
+#      #       #           #
+# C    # ##### #######     #
+####   #   C   #   #    B###
+#      ######### G         #
+# B #             #######  #
+# ###  ##########   # C    #
+#   ## #       C#   #   #  #
+#                       #  #
+#####P######################

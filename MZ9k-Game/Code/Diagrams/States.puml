@@ -1,0 +1,38 @@
+@startuml
+'https://plantuml.com/state-diagram
+
+scale 350 width
+
+hide empty description
+
+[*] --> StartMenu : Launch game
+
+state StartMenu{
+' [*] --> TitleScreen
+
+	TitleScreen --> Credits
+	TitleScreen --> LevelSelect
+	Credits --> TitleScreen : Back
+	LevelSelect --> TitleScreen : Back
+}
+
+StartMenu --> [*] : Exit
+
+LevelSelect --> Gameplay
+
+state Gameplay{
+' [*] --> InGame
+InGame --> WinScreen : Win
+InGame --> PauseScreen : Pause
+InGame --> LoseScreen : Die
+
+WinScreen --> InGame : Replay/Next level
+WinScreen --> StartMenu : Return
+
+LoseScreen --> InGame : Retry
+LoseScreen --> StartMenu : Return
+
+PauseScreen --> InGame: Unpause
+PauseScreen --> StartMenu: Return
+}
+@enduml

@@ -1,0 +1,65 @@
+MUSIC
+
+"Scheming Weasel (faster version)" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+
+Sneaky Snitch Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 3.0 License
+http://creativecommons.org/licenses/by/3.0/
+
+"Hidden Agenda" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+
+"Monkeys Spinning Monkeys" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+
+SFX
+victory:
+"yay" by zut50
+https://freesound.org/people/zut50/sounds/162395/
+This sound was made quieter.
+
+death:
+"Man die" by thestigmata
+https://freesound.org/people/thestigmata/sounds/202037/
+This sound was made quieter.
+
+regular_collect:
+"3 up fast 1" by Leszek_Szary
+https://freesound.org/people/Leszek_Szary/sounds/171583/
+
+bonus_appear:
+"Power Up, Bright, A.wav" by InspectorJ (www.jshaw.co.uk) of Freesound.org
+https://freesound.org/people/InspectorJ/sounds/411460/
+This one was trimmed. Original lasted 5 seconds. This one lasts 2.
+
+bonus_collect:
+"Level Up 01" by rhodesmas
+https://freesound.org/people/rhodesmas/sounds/320655/
+
+bonus_disappear:
+"glass shatter.wav" by datasoundsample
+https://freesound.org/people/datasoundsample/sounds/41348/
+
+punishment:
+"Bomb - Small" by Zangrutz
+https://freesound.org/people/Zangrutz/sounds/155235/
+
+snake: 
+"Snake hissing" by schreibsel
+https://freesound.org/people/schreibsel/sounds/540162/
+This sound was made louder.
+
+rat:
+"Mouse" by AntumDeluge
+https://freesound.org/people/AntumDeluge/sounds/188043/
+
+bat:
+"Rat" by egomassive
+https://freesound.org/people/egomassive/sounds/536753/
+
+
+killer90s!

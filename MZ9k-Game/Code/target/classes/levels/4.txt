@@ -1,0 +1,29 @@
+levelNumber 4
+startPointWallDir none
+endPointWallDir none
+bonusRewardAppearOnTickTimes 100
+bonusRewardLifetimeTickTimes 300
+ticksUntil0TimeBonus 1600
+maxTimeBonusScore 60
+
+layout
+############################
+#    BBBBB      C   B     S#
+# G      BBBBBBB    B      #
+#         B         BBBB   #
+#         B                #
+# BBBBBB       BBB    B    #
+#    BB          B     B   #
+#    B  BBB      B    BB   #
+#  C B        P      BBB   #
+#    B        E            #
+#           B              #
+#  BBBBB    B      BBBBBB  #
+#    B      B   BBB   B    #
+#    B   B          C      #
+#    B   B      BBBBBBBBB  #
+#  B     B       B    B    #
+#  B   BBBBBB    B    B    #
+#  BBB           BB B    B #
+#S      BB          C  BBB #
+############################
