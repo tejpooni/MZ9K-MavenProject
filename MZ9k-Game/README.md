@@ -1,5 +1,4 @@
-# MAZE GAME 9000
-By Jay Reyes, Tej Pooni, Pranav Sawhney, Bob Lu
+**MAZE GAME 9000**
 # About the game
 - To play a level, run the game then enter a number from 1 to 4 in the text box below the play button, then press Play.
 - Move the player, a stickman, using WASD. Press a key to move that direction. If you hold down a key in WASD, you only move one tile. If you press and hold space then press and hold WASD, you can keep moving.
