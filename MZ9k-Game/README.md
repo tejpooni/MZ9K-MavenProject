@@ -10,6 +10,14 @@ By Jay Reyes, Tej Pooni, Pranav Sawhney, Bob Lu
 - Don't step on a punishment, represented by a bomb. If you do, you lose 25 points. If your score does negative, you die!
 - Try to beat the level as fast as possible. The faster you are, the greater your time bonus is!
 
+<img width="899" alt="Screen Shot 2021-04-10 at 4 09 09 PM" src="https://user-images.githubusercontent.com/58926132/114286866-6e46ef80-9a17-11eb-8329-31d6ac326f6b.png">
+<img width="899" alt="Screen Shot 2021-04-10 at 4 09 15 PM" src="https://user-images.githubusercontent.com/58926132/114286868-7010b300-9a17-11eb-8591-0ef60296b672.png">
+<img width="899" alt="Screen Shot 2021-04-10 at 4 09 25 PM" src="https://user-images.githubusercontent.com/58926132/114286877-7e5ecf00-9a17-11eb-99d6-5c3bf8705324.png">
+<img width="899" alt="Screen Shot 2021-04-10 at 4 09 31 PM" src="https://user-images.githubusercontent.com/58926132/114286881-80c12900-9a17-11eb-838c-7ea8e453c568.png">
+<img width="899" alt="Screen Shot 2021-04-10 at 4 09 38 PM" src="https://user-images.githubusercontent.com/58926132/114286885-83238300-9a17-11eb-8428-b7faf3dc23e9.png">
+<img width="899" alt="Screen Shot 2021-04-10 at 4 09 44 PM" src="https://user-images.githubusercontent.com/58926132/114286886-84ed4680-9a17-11eb-98d8-12e7b34b5f55.png">
+
+
 # How to make a level
 - Let's look at level 1 as an example.
 ```
