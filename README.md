@@ -1,8 +1,8 @@
 **MAZE GAME 9000**
 # About the game
 - To play a level, run the game then enter a number from 1 to 5 in the text box below the play button, then press Play.
-- Move the player, using WASD. Press key to move that direction. Holding down a key in WASD, only moves one tile. Press and hold space then press and hold WASD, you can keep moving.
-- Collect all regular rewards, represented by golden coins, then step onto the orange end point to win the game.
+- Move the player, using WASD. Press the key to move in that direction. Holding down a key in WASD, only moves one tile. Press and hold space then press and hold WASD, you can keep moving.
+- Collect all regular rewards, represented by golden coins, then step onto the orange endpoint to win the game.
 - Bonus rewards represented by green gems appear. Collect them for a nice points increase! But you must be fast since they only appear for a short time!
 - If a snake or any of the moving enemies touch you, you die! Avoid them!
 - There are 3 types of moving enemies: green(snake), red(rat), and blue(bat). Snakes follow and track you down. Red Rats move left and right. Blue Bats move up and down.
@@ -52,8 +52,8 @@ The level layout starts after the line that contains only the word `layout`. Not
 **What kinds of objects does the layout support?**
 - "#" for SolidWall, a wall that no Entity can move through.
 - S for MovingEnemy, an enemy which follows the player.
-- L for LeftRightEnemy, an enemy that moves horizontally, switching direction of it finds a wall.
-- U for UpDownEnemy, an enemy that moves vertically, switching direction of it finds a wall.
+- L for LeftRightEnemy, an enemy that moves horizontally, switching the direction of it finds a wall.
+- U for UpDownEnemy, an enemy that moves vertically, switching the direction of it finds a wall.
 - P for StartCell, the place where the Player appears when the level starts.
 - E for EndCell, the place where the Player must go to after collecting all regular rewards to win the level.
 - C for RegularReward, a reward worth 5 points that all must be collected to win.
@@ -61,7 +61,7 @@ The level layout starts after the line that contains only the word `layout`. Not
 - An empty space, , for an empty cell.
 
 **What is a tick?**
-- The game runs at 30 frames per second, or 30 ticks per second.
+- The game runs at 30 frames per second or 30 ticks per second.
 - You might think that 1 tick = 33.33 milliseconds, but actually, 1 tick = 33 milliseconds.
 - This is due to how Thread.sleep can only pause the game in whole milliseconds, not decimal milliseconds.
 - This 1t = 33ms means that for the game, 990 ms makes up 1 second. While a proper game would never do this, it's good enough for the circumstances of this project.
